@@ -1,24 +1,26 @@
 /* body */
-body{
+body {
     padding: 0;
     margin: 0;
 }
+
 /* header */
-header{
-    background-image: url("img/bg-img1.jpg");
-    background-size: 1280px , auto;
+header {
+    background-image: url("img/bg-img2.jpg");
+    background-size: 1280px, auto;
     background-repeat: no-repeat;
     height: 350px;
     width: 1280px;
 }
+
 /* navbar background-color,size */
-.navbar{
+.navbar {
     background-color: rgba(110, 173, 0, 0.983);
     padding: 1% 0 1% 0;
-    
 }
+
 /* navbar logo details and nav-menu details */
-.nav-content{
+.nav-content {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -26,80 +28,101 @@ header{
     align-items: center;
     font-style: italic;
 }
+
 /* nav-menu bihever */
-.nav-menu a:hover{
+.nav-menu a:hover {
     color: #01fff7;
     transition: all 0.4s ease 0s;
 }
+
 /* nav-menu padding distance */
-.nav-menu a{
+.nav-menu a {
     padding: 10px;
 }
+
 /* nav logo position */
-.logo{
+.logo {
     width: 3rem;
     font-style: italic;
 }
+
 /* header content details */
-.header-content{
+.header-content {
     padding-left: 15%;
     padding-top: 50px;
 }
+
 /* header first buttion details */
-header .fist{
+header .fist {
     background-color: #fff;
     color: #000;
     font-style: italic;
 }
+
 /* header second buttion details */
-header .sec{
+header .sec {
     background-color: #fcb32d;
     color: #353030;
     font-style: italic;
 }
+
 /* section details */
-section{
+section {
     padding: 2%;
     display: flex;
     justify-content: space-around;
     background-color: #fff;
     color: black;
 }
+
 /* section pairagraph details */
-section p{
+section p {
     width: 270px;
 }
+
 /* section first buttion */
-.one{
+.one {
     background-color: #030303;
     color: #fff;
 }
-.one p , ul{
-    padding-left:  1px;
+
+.one p,
+ul {
+    padding-left: 1px;
 }
-/* second buttion */
-section .two{
+
+/* second second */
+section .two {
     background-color: #feeaea;
     color: black;
 }
-section img{
+
+/* section-first img details */
+section img {
     width: 32px;
     height: 32px;
 }
-section button{
+
+/* contect section-first buttion first */
+section button {
     background-color: rgb(135, 220, 16);
     color: rgb(3, 3, 3);
 }
-section #bto{
+
+/* contect section-first buttion second */
+section #bto {
     justify-content: space-between;
     background-color: rgb(0, 183, 255);
     color: rgb(0, 0, 0);
 }
-footer{
+
+/* footer details */
+footer {
     height: 0px;
     padding-left: 4%;
     padding-right: 4%;
     display: flex;
     justify-content: space-between;
-    height: 2px;    color: gold;
+    height: 2px;
+    color: gold;
 }
