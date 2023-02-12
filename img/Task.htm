@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title><link rel="stylesheet" href="Task_files/style.css">
+</head>
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="nav-content">
+                <img src="Task_files/nike_PNG.png" alt="logo" class="logo">
+
+                <div class="nav-menu">
+                    <a href="">HOME</a>
+                    <a href="">ABOUT</a>
+                    <a href="">PRODUCTS</a>
+                    <a href="">SERVICES</a>
+                    <a href="">FAQS</a>
+                    <a href="">CONTACTS-US</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <h1>FRESH IDEAS</h1>
+            <p>FOR GROWING YOUR BUSINESS</p>
+            <!-- first buttion  -->
+            <button class="fist">MENU-MORE</button>
+            <!-- second buttion -->
+            <button class="sec">NEXT</button>
+        </div>
+    </header>
+    <section>
+        <box class="Research">
+            <h2><img src="Task_files/logo.png" alt=""> Research</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              dolorem voluptate illum dicta quod consequuntur eligendi eaque,
+              praesentium vitae laborum.
+            </p>
+            <button>MORE_INFO</button>
+          </box>
+          <box1 class="planning">
+            <h2><img src="Task_files/logo.png" alt=""> planning</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+              perspiciatis rerum minima tenetur ratione quibusdam distinctio
+              deserunt molestiae assumenda obcaecati?
+            </p>
+            <button>VIEW-MORE</button>
+          </box1>
+          <box2 class="support">
+            <h2><img src="Task_files/logo.png" alt=""> Support</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut assumenda
+              odio nam? ipsum dolor sit, amet consectetur adipisicing elit. Odit et
+              a, modi veniam natus ipsum! Sequi nihil at asperiores ea
+            </p>
+            <button>RED-MORE</button>
+          </box2>
+    </section>
+    <section class="one">
+        <box class="workteam">
+          <h3>Work team</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo facilis
+            debitis a esse laboriosam nulla,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+            suscipit.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, harum?
+          </p>
+        </box>
+        <box1 class="services">
+          <h3>Services.</h3>
+          <ul>
+            <li><a href="">comp-info</a></li>
+            <li><a href="">products-info</a></li>
+            <li><a href="">Services-info</a></li>
+            <li><a href="">location</a></li>
+            <li><a href="">about</a></li>
+          </ul>
+          <button>more</button>
+        </box1>
+        <box2 class="contact">
+          <h3>Contact</h3>
+          <ul>
+            <input type="text" placeholder="Name"><br>
+            <input type="text" placeholder="E-male">
+            <br><textarea name="comment" id="com" placeholder="Comment Box"></textarea>
+          </ul>
+          <button>Submit</button>
+          <button id="bto">Clear</button>
+        </box2>
+      </section>
+      <section class="two">
+        <div class="company">
+          <ul>
+            <li><a href="">info</a></li>
+            <li><a href="">secter-info</a></li>
+            <li><a href="">MORE</a></li>
+            <li><a href="">about</a></li>
+          </ul>
+        </div>
+        <div class="services">
+          <ul>
+            <li><a href="">free_delever</a></li>
+            <li><a href="">fast services</a></li>
+            <li><a href="">return</a></li>
+          </ul>
+        </div>
+        <div class="advice">
+          <ul>
+            <li><a href="">FAQS</a></li>
+            <li><a href="">shell</a></li>
+          </ul>
+        </div>
+        <div class="member">
+          <ul>
+            <li>ajay</li>
+            <li>rohit</li>
+            <li>mampi</li>
+          </ul>
+        </div>
+      </section>
+      <footer>
+            <p>polyce_<a href="">click hear</a></p>
+            <p>contact <a href="">click</a></p>
+      </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

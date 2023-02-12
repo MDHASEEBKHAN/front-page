@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url("img/bg-img1.jpg");
+    background-size: 1280px , auto;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 1280px;
+}
+.navbar{
+    background-color: rgba(110, 173, 0, 0.983);
+    padding: 1% 0 1% 0;
+    
+}
+.nav-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+.nav-menu a:hover{
+    color: #01fff7;
+    transition: all 0.4s ease 0s;
+}
+.nav-menu a{
+    padding: 10px;
+}
+.logo{
+    width: 3rem;
+    font-style: italic;
+}
+.header-content{
+    padding-left: 15%;
+    padding-top: 50px;
+}
+header .fist{
+    background-color: fff;
+    color: #000;
+    font-style: italic;
+}
+header .sec{
+    background-color: #92c602;
+    color: #fff;
+    font-style: italic;
+}
+section{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: black;
+}
+section p{
+    width: 270px;
+}
+/* first buttion */
+.one{
+    background-color: #030303;
+    color: #fff;
+}
+.one p , ul{
+    padding-left:  1px;
+}
+/* second buttion */
+section .two{
+    background-color: #feeaea;
+    color: black;
+}
+section img{
+    width: 32px;
+    height: 32px;
+}
+section button{
+    background-color: rgb(135, 220, 16);
+    color: rgb(3, 3, 3);
+}
+section button .bto{
+    background-color: skyblue;
+    color: aqua;
+}
+footer{
+    height: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    height: 2px;
+    background-color: #0054ef;
+    color: gold;
+}
